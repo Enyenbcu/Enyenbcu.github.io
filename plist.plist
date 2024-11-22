@@ -11,7 +11,7 @@
                    <key>kind</key>   
                    <string>software-package</string>   
                    <key>url</key>   
-                   <string>ipa包的下载地址，如：http://www.tammy.com:450/static/ios/(targetname)_(version)_build(buildversion)_yyyyMMdd.ipa</string>   
+                   <string>https://enyenbcu.github.io/plist.plist</string>   
                </dict>   
            </array>   
            <key>metadata</key>   
