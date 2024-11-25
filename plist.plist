@@ -19,11 +19,11 @@
                 <key>bundle-identifier</key>  
                 <string>竞彩体育2</string>  
                 <key>bundle-version</key>  
-                <string>1.9.0</string>  
+                <string>1.9.5</string>  
                 <key>kind</key>  
                 <string>software</string>  
                 <key>title</key>  
-                <string>竞彩体育1</string>  
+                <string>竞彩体育</string>  
             </dict>  
         </dict>  
     </array>  
