@@ -1,15 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
+
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <title>🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄</title>
+
+  <link rel="stylesheet" href="./css/index.css">
+
+  <!-- 国外CDN资源 -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.115.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.115.0/examples/js/postprocessing/EffectComposer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.115.0/examples/js/postprocessing/RenderPass.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.115.0/examples/js/postprocessing/ShaderPass.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.115.0/examples/js/shaders/CopyShader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.115.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.115.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+
 </head>
+
 <body>
-  <button id="button">下载</button>
-  <script>
-    document.getElementById('button').addEventListener('click', function() {
-      window.open('itms-services://?action=download-manifest&url=https://enyenbcu.github.io/plist.plist', '_self')
-    })
-  </script>
+
+  <!-- 音乐选择页面，选择完之后会覆盖替换掉 -->
+  <div id="overlay">
+    <!-- 音乐列表整体盒子 -->
+    <div id="music-list-box">
+      <h2>选择一首音乐开始</h2>
+      <!-- 默认基础音乐列表 -->
+      <ul id="base-music-list"></ul>
+
+    </div>
+
+    <!-- 背景星星动画，也会被覆盖掉 -->
+    <iframe id="overlay-bg" src="overlay-bg.html" frameborder="0"></iframe>
+  </div>
+
+  <script src="./js/index.js"></script>
+
 </body>
+
 </html>
